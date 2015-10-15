@@ -1,6 +1,7 @@
-acme_post:
-    resource: "@AcmePostBundle/Resources/config/routing.yml"
-    prefix:   /
+acme_post_crud:
+    resource: "@AcmePostBundle/Controller/"
+    type:     annotation
+    # prefix:   /post
 
 app:
     resource: "@AppBundle/Controller/"
