@@ -4,6 +4,8 @@ namespace Acme\PostBundle\Entity;
 
 /**
  * Post
+ * @ORM\Entity
+ * @ORM\HasLifecycleCallbacks
  */
 class Post
 {
