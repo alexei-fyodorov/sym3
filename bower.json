@@ -1,0 +1,22 @@
+{
+  "name": "sym3",
+  "homepage": "https://github.com/alexei-fyodorov/sym3",
+  "authors": [
+    "Fyodorov Alexei <alexei.fyodorov.phpdevelopment@gmail.com>"
+  ],
+  "description": "symfony project 3",
+  "main": "main",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "web/assets/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
