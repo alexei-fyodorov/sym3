@@ -13,4 +13,11 @@ Acme\PostBundle\Entity\Post:
             length: 255
         body:
             type: text
-    lifecycleCallbacks: {  }
+        created:
+            type: datetime
+        updated:
+            type: datetime
+    lifecycleCallbacks:
+        prePersist: [ persistCreatedDatetime, updateUdatedDatetime ]
+        preUpdate: [ updateUdatedDatetime ]
+
