@@ -20,6 +20,14 @@ class AppKernel extends Kernel
             new Acme\PostBundle\AcmePostBundle(),
             // added
             new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
+            new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
+
+            // Add your dependencies
+            new Sonata\CoreBundle\SonataCoreBundle(),
+            new Sonata\BlockBundle\SonataBlockBundle(),
+            new Knp\Bundle\MenuBundle\KnpMenuBundle(),
+            // Then add SonataAdminBundle
+            new Sonata\AdminBundle\SonataAdminBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

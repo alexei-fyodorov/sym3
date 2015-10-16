@@ -19,7 +19,12 @@
         "sensio/framework-extra-bundle": "^3.0.2",
         "incenteev/composer-parameter-handler": "~2.0",
         "sensio/generator-bundle": "^2.5",
-        "doctrine/doctrine-migrations-bundle": "^1.0"
+        "doctrine/doctrine-migrations-bundle": "^1.0",
+        "symfony/security-acl": "^2.7",
+        "sonata-project/admin-bundle": "dev-master",
+        "jms/translation-bundle": "^1.1",
+        "sonata-project/doctrine-orm-admin-bundle": "^2.3",
+        "symfony/security-bundle": "^2.7"
     },
     "require-dev": {
     },
