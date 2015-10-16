@@ -1,0 +1,6 @@
+{# app/Resources/views/article/recent_list.html.twig #}
+{% for post in posts %}
+    <a href="/posts/{{ post.id }}">
+        {{ post.title }}
+    </a>
+{% endfor %}
